@@ -1,5 +1,5 @@
-classes = 1
-train  = /content/FlagRecognition/test.txt
+classes = 10
+train  = /content/FlagRecognition/train.txt
 valid  = /content/FlagRecognition/test.txt
 names = /content/FlagRecognition/classes.names
-backup = /content/FlagRecognition/weights/
+backup = /content/FlagRecognition/darknet/backup/
