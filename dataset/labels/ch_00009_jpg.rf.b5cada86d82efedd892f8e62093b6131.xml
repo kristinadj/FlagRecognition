@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>ch_00009_jpg.rf.b5cada86d82efedd892f8e62093b6131.jpg</filename>
+	<path>ch_00009_jpg.rf.b5cada86d82efedd892f8e62093b6131.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>105</xmin>
+			<xmax>349</xmax>
+			<ymin>52</ymin>
+			<ymax>306</ymax>
+		</bndbox>
+	</object>
+</annotation>

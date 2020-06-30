@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rs_00024_jpg.rf.73e1f5c201b8a8772d022e9e54f606f8.jpg</filename>
+	<path>rs_00024_jpg.rf.73e1f5c201b8a8772d022e9e54f606f8.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rs</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>96</xmin>
+			<xmax>223</xmax>
+			<ymin>228</ymin>
+			<ymax>411</ymax>
+		</bndbox>
+	</object>
+</annotation>

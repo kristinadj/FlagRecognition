@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>hu_00012_jpg.rf.2858a63e5ddfa6f343a44691c7d8ab41.jpg</filename>
+	<path>hu_00012_jpg.rf.2858a63e5ddfa6f343a44691c7d8ab41.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hu</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>98</xmin>
+			<xmax>259</xmax>
+			<ymin>134</ymin>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+</annotation>

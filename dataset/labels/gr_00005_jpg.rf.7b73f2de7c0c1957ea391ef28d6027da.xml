@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>gr_00005_jpg.rf.7b73f2de7c0c1957ea391ef28d6027da.jpg</filename>
+	<path>gr_00005_jpg.rf.7b73f2de7c0c1957ea391ef28d6027da.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gr</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>137</xmin>
+			<xmax>207</xmax>
+			<ymin>95</ymin>
+			<ymax>216</ymax>
+		</bndbox>
+	</object>
+</annotation>

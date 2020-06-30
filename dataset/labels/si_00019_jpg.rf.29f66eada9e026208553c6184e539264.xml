@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>si_00019_jpg.rf.29f66eada9e026208553c6184e539264.jpg</filename>
+	<path>si_00019_jpg.rf.29f66eada9e026208553c6184e539264.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>si</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>247</xmin>
+			<xmax>413</xmax>
+			<ymin>112</ymin>
+			<ymax>337</ymax>
+		</bndbox>
+	</object>
+</annotation>
