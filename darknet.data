@@ -2,4 +2,4 @@ classes = 10
 train  = /content/FlagRecognition/train.txt
 valid  = /content/FlagRecognition/test.txt
 names = /content/FlagRecognition/classes.names
-backup = /content/FlagRecognition/darknet/backup/
+backup = /content/FlagRecognition/weights/
