@@ -1,4 +1,4 @@
-classes = 10
+classes = 3
 train  = /content/FlagRecognition/train.txt
 valid  = /content/FlagRecognition/test.txt
 names = /content/FlagRecognition/classes.names
