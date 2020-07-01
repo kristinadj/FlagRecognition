@@ -15,13 +15,13 @@ def split_dataset(dataset_dir):
     idx = 0
 
     for f in os.listdir(dataset_dir):
-        if f.split(".")[3] == "jpg":
+        if f.split(".")[4] == "jpg":
             idx += 1
 
             if idx in test_dataset_file_indices:
-                test_file.write(dataset_dir + '/' + f + '\n')
+                test_file.write(dataset_dir + '\\' + f + '\n')
             else:
-                train_file.write(dataset_dir + '/' + f + '\n')
+                train_file.write(dataset_dir + '\\' + f + '\n')
 
 
 if __name__ == "__main__":
