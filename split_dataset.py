@@ -15,7 +15,7 @@ def split_dataset(dataset_curr_dir, dataset_target_dir):
     idx = 0
 
     for f in os.listdir(dataset_curr_dir):
-        if f.split(".")[4] == "jpg":
+        if f.split(".")[1] == "jpg":
             idx += 1
 
             if idx in test_dataset_file_indices:
