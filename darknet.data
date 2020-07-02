@@ -3,3 +3,4 @@ train  = ../FlagRecognition/train.txt
 valid  = ../FlagRecognition/test.txt
 names = ../FlagRecognition/classes.names
 backup = ../weights
+
