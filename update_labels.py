@@ -25,6 +25,9 @@ def update_labels(labels_dir):
                 tokenized_content[0] = '2'
                 new_content = " ".join(tokenized_content);
                 new_lines.append(new_content)
+            elif (tokenized_content[0] == '0' or tokenized_content[0] == '1' or tokenized_content[0] == '2'):
+                new_content = " ".join(tokenized_content);
+                new_lines.append(new_content)
         f.close()
 
         if len(new_lines) != 0:
