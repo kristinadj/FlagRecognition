@@ -25,16 +25,12 @@ def update_labels(labels_dir):
                 tokenized_content[0] = '2'
                 new_content = " ".join(tokenized_content);
                 new_lines.append(new_content)
-            elif (tokenized_content[0] == '0' or tokenized_content[0] == '1' or tokenized_content[0] == '2'):
-                new_content = " ".join(tokenized_content);
-                new_lines.append(new_content)
         f.close()
 
-        if len(new_lines) != 0:
-            f = open(path, "w")
-            new_content = " ".join(new_lines);
-            f.write(new_content)
-            f.close()
+        f = open(path, "w")
+        new_content = " ".join(new_lines);
+        f.write(new_content)
+        f.close()
 
 if __name__ == "__main__":
     update_labels(sys.argv[1])
