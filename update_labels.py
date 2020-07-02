@@ -13,7 +13,7 @@ def update_labels(labels_dir):
 
         for line in lines:
             tokenized_content = line.split(" ")
-            if (tokenized_content[0] == '3'):
+            if (tokenized_content[0] == '5'):
                 tokenized_content[0] = '0'
                 new_content = " ".join(tokenized_content);
                 new_lines.append(new_content)
