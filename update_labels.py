@@ -6,6 +6,7 @@ import sys
 def update_labels(labels_dir):
     for file in os.listdir(labels_dir):
         path = os.path.join(labels_dir, file)
+
         f = open(path, "r")
         old_content = f.read()
         tokenized_content = old_content.split(" ")
