@@ -1,5 +1,5 @@
 classes = 3
-train  = /content/gdrive/My Drive/SOFT/FlagRecognition/train.txt
-valid  = /content/gdrive/My Drive/SOFT/FlagRecognition/test.txt
-names = /content/gdrive/My Drive/SOFT/FlagRecognition/classes.names
+train  = /content/FlagRecognition/train.txt
+valid  = /content/FlagRecognition/test.txt
+names = /content/FlagRecognition/classes.names
 backup = /content/gdrive/My Drive/SOFT/weights
